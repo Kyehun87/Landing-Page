@@ -5,6 +5,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #E5E7EB;
+    margin: 0 auto;
+    padding: auto;
 }
 
 /* Colors */
@@ -27,11 +29,13 @@ body {
 
 .header-logo {
     font-size: 1.5rem;
+    font-weight: 900;
 }
 
 .signup,
 .action,
-.action-p {
+.action-p,
+.hero-button {
     background-color: #3882F6;
     color: #E5E7EB;
 }
@@ -46,12 +50,30 @@ body {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 2.25rem;
-
+    width: 100%;
 }
 
 .action-p {
-    font-weight: bold;
+    font-weight: 900;
     display: block;
+    font-size: 1.25rem;
+}
+
+.item-desc {
+    color: #1F2937;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 900;
+    /* text-align: right; */
+    /* justify-content: right; */
+    margin-left: 25em;
+    font-size: 1.2rem;
 }
 
 
@@ -61,6 +83,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 15em;
+    padding-right: 15em;
 }
 
 
@@ -74,7 +98,28 @@ body {
 }
 
 .hero {
-    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.hero-img {
+    align-items: flex-end;
+    object-fit: contain;
+    width: 350px;
+    padding: 4em;
+}
+
+.hero-words {
+    text-align: left;
+    padding: 3em;
+}
+
+.hero-button {
+    padding: .25em 1em;
+    border-radius: 15%;
 }
 
 .content {
@@ -86,9 +131,45 @@ body {
 .images {
     display: flex;
     flex-direction: row;
+    gap: 2em;
+    padding-left: 25em;
+    padding-right: 25em;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-image {
+    object-fit: contain;
+    width: 12em;
+    border: 5px solid #3882F6
 }
 
 .action {
     display: flex;
     justify-content: space-between;
+    padding: 2.5em 7em;
+}
+
+.quote {
+    /* padding-left: 10em; */
+    /* padding-right: 10em; */
+    padding: 7.5em 10em;
+}
+
+.action-paragraph {
+    padding-right: 12em;
+    /* border: 5px red solid; */
+}
+
+.signup {
+    border: 1.5px solid #F9FAF8;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+footer {
+    text-align: center;
 }
