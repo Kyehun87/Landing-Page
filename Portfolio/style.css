@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav-link {
+    font-size: 1.125rem;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+}
+
+.signup,
+.action,
+.action-p {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.content-title {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 2.25rem;
+
+}
+
+.action-p {
+    font-weight: bold;
+    display: block;
+}
+
+
+/* Alignment */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.links {
+    justify-content: space-between;
+    padding-right: 4em;
+}
+
+.nav-link {
+    margin-left: 1.5em;
+}
+
+.hero {
+    flex-direction: row-reverse;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+}
